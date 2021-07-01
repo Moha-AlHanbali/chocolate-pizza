@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(50,50,50);
+}
+
+header{
+    width: 75%;
+    height: 100px;
+    margin: auto;
+
+            
+}
+
+.hatch{
+    height: 15px;
+    background-image: linear-gradient(45deg, rgb(141, 141, 141) 12.50%, white 12.50%, white 50%, rgb(141, 141, 141) 50%, rgb(141, 141, 141) 62.50%, white 62.50%, white 100%);
+    background-size: 5.66px 5.66px;}
+
+
+#titleDiv{
+    width: 50%;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+
+#titleDiv img{
+    width: auto;
+    float: left;
+    padding-right: 10px;
+
+}
+
+
+#titleDiv h6{
+    font-family: 'Abel', sans-serif;
+    font-size: 12px;
+    color: rgb(100,100,100);
+    font-weight:400;
+}
+
+h1{
+    font-family: 'Big Shoulders Text', cursive;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+h2{
+    font-family: 'Yellowtail', cursive;
+    font-weight: bold;
+        font-size: 36px;
+}
+
+
+#socialMediaDiv{
+    display: inline-block;  
+    width: 40%;
+    position: relative;
+    bottom: 10%;
+    left: 26.5%;
+}
+#socialMediaDiv a{
+    text-decoration: none;
+}
+#socialMediaDiv a:nth-of-type(7){
+    margin-left: 10px;
+}
+
+.recipe{
+    width: 75%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+h1{
+    font-size: 48px;
+}
+
+h6{
+    font-size: 14px;
+    color: rgb(200, 200, 200);
+    font-family: 'Abel', sans-serif;
+    font-weight: 900;
+    
+}
+
+.recipeName{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.print{
+    display: inline-block;
+    position: relative;
+    left: 63%;
+}
+.print h6{
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+}
+
+#heroImg{
+    width: 100%;
+    padding-bottom: 50px;
+
+}
+
+p{
+    font-family: 'Noto Serif', serif;
+    color: rgb(125,125,125);
+    font-size: 18px;
+    font-weight: 500;
+    text-indent: 5%;
+    line-height: 1.5em;
+}
+
+
+#formSection{
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+#ingredientsList{
+    z-index: 1;
+    width: 100%;
+
+}
+
+#leftIngredients{
+    width: 40%;
+    position: absolute;
+    left: 10%;
+    bottom: 28%;
+    z-index: 2;
+}
+
+#rightIngredients{
+    width: 43%;
+    position: absolute;
+    left: 50%;
+    bottom: 28%;
+    z-index: 2;
+
+}
+
+label{
+    display: inline-block;
+    font-family: 'Patrick Hand', cursive;
+    color: rgb(110,105,80);
+    font-size: 24px;
+    text-align: left;
+    line-height: 35px;
+}
+
+footer{
+    width: 75%;
+    margin: auto;
+}
+
+.author{
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    width: 75%;
+}
+
+.author img{
+    float: left;
+    margin-right: 20px;
+}
+.author h3{
+    display: inline-block;
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    font-size: 24px;
+    vertical-align: top;
+    padding-bottom: 5px;
+    color: rgb(75,75,75);
+}
+
+.author p{
+    text-indent: 0px;
+    line-height: 1.8em;
+}
+
+#shareButton{
+    float: right;
+    position: relative;
+    top: 40px;
+    padding: 15px 40px 15px 40px;
+    border-radius: 0;
+    border: none;
+    background-color: rgb(190,100,90);
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+
+#shareButton:hover{
+
+    background-color: rgba(190, 100, 90, 0.815);
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#credits {
+    margin: auto;   
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+#credits img{
+    margin-bottom: 20px;
+}
+
+#credits h6{
+    color: rgb(175,175,175);
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 1.5em;
+    font-family: 'Noto Serif', serif;
+
+}
